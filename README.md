@@ -220,7 +220,7 @@ Sebagai perbandingan, grafik Baseline LSTM menunjukkan performa yang jauh lebih 
 ## Struktur Repositori
 
 ```
-├── 📓 DLTM.ipynb                         # Notebook utama (EDA, Training, Evaluasi)
+├── 📓 bitcoin_timeseries.ipynb                         # Notebook utama (EDA, Training, Evaluasi)
 ├── 🏆 best_model_seq2seq_LSTM.keras      # Model Seq2Seq terbaik (checkpoint)
 ├── 📦 model_seq2seq_LSTM.keras           # Model Seq2Seq (epoch terakhir)
 ├── 🥈 model_baseline_LSTM.keras          # Model Baseline LSTM (untuk komparasi)
@@ -258,7 +258,7 @@ pip install -r requirements.txt
 
 ### 2. Menjalankan Eksperimen
 
-Buka dan jalankan notebook `DLTM.ipynb` secara berurutan. Notebook ini mencakup seluruh pipeline:
+Buka dan jalankan notebook `bitcoin_timeseries.ipynb` secara berurutan. Notebook ini mencakup seluruh pipeline:
 
 1. Load data & Exploratory Data Analysis
 2. Feature Engineering (RSI, MACD, ATR, Rolling Stats)
